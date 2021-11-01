@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="card-header bg-secondary text-white">
+        <div class="float-start">ngClass Directive</div>
+        <button type="button" (click)="ngClassMethod()" class="btn btn-sm float-end"
+            [ngClass]="{'btn-danger': status, 'btn-primary': !status}">Click</button>
+        </div>
+    
+    <div class="card-body" [ngClass]="{'alert-danger': status}">
+        <div>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        </div>
+    </div>
+</div>
